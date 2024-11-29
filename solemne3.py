@@ -7,11 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/145JOTiglqnMY-8kSBbbY5XV8Lehh0oCC
     
 """
-pip install pandas
-pip install matplotlib
 
-
-!pip install pandas
 
 import pandas as pd
 
@@ -35,7 +31,6 @@ print(filtro)
 df["Densidad Poblacional"] = df["Poblacion_total"] / df["Area_km²"]
 print(df.head())
 
-!pip install matplotlib
 
 import matplotlib.pyplot as plt
 
